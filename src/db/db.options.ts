@@ -12,7 +12,7 @@ export class DatabaseOptions implements TypeOrmOptionsFactory {
 			password: process.env.DB_PASSWORD,
 			database: process.env.DB_NAME,
 			entities: [__dirname + '/**/*.entity.ts'],
-			synchronize: true,
+			// synchronize: true,
 			// autoLoadEntities: true,
 			// subscribers: [__dirname + '/subscribers/**'],
 		};

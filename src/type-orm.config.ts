@@ -10,8 +10,8 @@ const AppDataSource = new DataSource({
 	password: process.env.DB_HOST,
 	database: process.env.DB_HOST,
 	entities: ['**/*.entity.ts'],
-	migrations: ['src/migrations/*.ts'],
-	synchronize: true,
+	// migrations: ['src/migrations/*.ts'],
+	// synchronize: true,
 });
 
 AppDataSource.initialize()
